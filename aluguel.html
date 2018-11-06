@@ -19,20 +19,62 @@
        
        <h1>Alugue sua loja</h1>
        <form method="post" action="pagina2.html">
-           Nome: <input type="text" id="nome"
+           
+           <div class="form-row">
+              <div class="form-group col-xs-6">
+              <label for="idnome"> Nome:</label>
+                  <input type="text" id="nome"
                         name="nome" required="true"
-                        placeholder="Digite seu nome"/>
-           Email: <input type="email" id="email"
-                        name="email" required="true"
-                        placeholder="Digite seu Email"/>
-           Telefone Fixo: <input type="text" id="telefonef"
-                                 name="telefonef" required="true"
-                                 placeholder="Digite o Telefone fixo"/>
-           Telefone Celular: <input type="text" id="telefonec"
-                                    name="telefonec" required="true"
-                                    placeholder="Digite o Telefone celular"/>
-                    
+                        placeholder="Digite seu nome"
+                         class="form-control"/>
+               </div>
+               
+              <div class="form-group col-xs-6">
+                  <label for="idemail"> Email:</label> <input type="email" id="email"
+                        name="txtemail" required="true"
+                        placeholder="Digite seu Email"
+                        class="form-control"/>
+                  </div>
+               </div>
+            <div class="form-row">
+         <div class="form-group col-xs-6"> 
+        <label for="idTelefoneFixo">  Telefone Fixo:
+                  </label> <input type="text" id="telefonefixo"
+                                 name="telefonefixo" required="true"
+                                 placeholder="Digite o Telefone fixo"
+                                  class="form-control"/>
+        </div>
+         
+              <div class="form-group col-xs-6">
+           <label for="idTelefoneCelular"> Telefone Celular:
+                  </label>
+                  <input type="text" id="telefonecelular"
+                                    name="telefonecelular" required="true"
+                                    placeholder="Digite o Telefone celular"
+                          class="form-control"/>
+  </div>
+           </div>
+              <form>
+    <div class="form-row"> 
+               <div class="form-group">
                  
+        <label for="idEmail"> E-mail:</label> <input type="Email" id="idEmail"
+                       name="textnome" required="true"
+                       placeholder="Digite seu E-mail"
+                       class="form-control"/>
+           
+                                       </div>
+            <div class="form-row"> 
+               <div class="form-group">
+           
+             <label for="idSenha"> Senha:</label> <input type="Senha" id="idSenha"
+                       name="textnome" required="true"
+                       placeholder="Passoword"
+                                        class="form-control"/>
+</div>
+     </div>          
+               </form>
+      
               </form>
            
          </div>
